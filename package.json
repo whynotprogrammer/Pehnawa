@@ -1,0 +1,46 @@
+{
+  "name": "pehnawa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whynotprogrammer/Pehnawa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whynotprogrammer/Pehnawa/issues"
+  },
+  "homepage": "https://github.com/whynotprogrammer/Pehnawa#readme",
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.2",
+    "@tailwindcss/postcss": "^4.3.3",
+    "lucide-react": "^1.51.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  }
+}
